@@ -8,7 +8,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - name: Mensaje
-     run: echo "Primera iteracción con Git Actions"
+     run: echo "Hola Mundo"
    - name: Mensaje2
      run: echo "Segunda iteracción con Git Actions"
    - name: Mensaje3
