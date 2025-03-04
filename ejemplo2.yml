@@ -1,0 +1,15 @@
+#1 PONERLE UN NOMBRE
+name: "FLUJO DE TRABAJAO 1"
+#darle un evento para q se ejecute el flujo de trabajo
+on: [push]
+
+jobs:
+ prueba1:
+  runs-on: ubuntu-latest
+  steps:
+   - name: Mensaje
+     run: echo "Primera iteracción con Git Actions"
+   - name: Mensaje2
+     run: echo "Segunda iteracción con Git Actions"
+   - name: Mensaje3
+     run: echo "Tercera iteracción con Git Actions"
