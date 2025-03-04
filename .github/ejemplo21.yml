@@ -10,9 +10,9 @@ jobs:
    - name: Mensaje
      run: echo "HOLA MUNDO"
    - name: Mensaje2
-     run: echo "HOLAZZZZ"
+     run: echo "Segunda iteracción con Git Actions"
    - name: Mensaje3
-     run: echo "ESE RYZE ES UN BAJO"
+     run: echo "Tercera iteraccion con Git Actions"
    - name: Mensaje4
      run: echo "Cuarta iteracción con Git Actions"
    - name: Mensaje5 
