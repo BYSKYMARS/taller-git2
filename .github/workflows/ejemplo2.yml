@@ -12,7 +12,9 @@ jobs:
    - name: Crea Archivo
      run: touch alumnos.txt
    - name: Adiciona Alumnos
-     run: echo "Juan" >> alumnos.txt
-     run: echo "Pedro" >> alumnos.txt
+     run: |
+       echo "Jose" >> alumnos.txt
+       echo "Juan" >> alumnos.txt
+       echo "Pedro" >> alumnos.txt
    - name: Muestra Archivo
      run: cat alumnos.txt
