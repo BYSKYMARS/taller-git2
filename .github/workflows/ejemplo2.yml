@@ -18,3 +18,9 @@ jobs:
        echo "Pedro" >> alumnos.txt
    - name: Muestra Archivo
      run: cat alumnos.txt
+
+ prueba2:
+  runs-on: ubuntu-latest
+  steps:
+   - name: Abrir archivo del otro job
+     run: cat alumnos.txt
