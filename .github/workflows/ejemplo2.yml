@@ -22,5 +22,7 @@ jobs:
  prueba2:
   runs-on: ubuntu-latest
   steps:
-   - name: Abrir archivo del otro job
-     run: cat alumnos.txt
+  - name: Crear archivo
+    run: touch alumnos.txt
+  - name: Abrir archivo del otro job
+    run: cat alumnos.txt
