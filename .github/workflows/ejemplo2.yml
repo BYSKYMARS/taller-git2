@@ -9,11 +9,5 @@ jobs:
   steps:
    - name: Mensaje
      run: echo "Hola Mundo"
-   - name: Mensaje2
-     run: echo "Segunda iteracción con Git Actions"
-   - name: Mensaje3
-     run: echo "Tercera iteracción con Git Actions"
-   - name: Mensaje4
-     run: echo "Cuarta iteracción con Git Actions"
-   - name: Mensaje5 
-     run: echo "Quinta iteracción con Git Actions"
+   - name: Crea Archivo
+     run: touch alumnos.txt
